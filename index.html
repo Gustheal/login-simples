@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Página de Login</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Login</h1>
+
+        <p>Informe seu e-mail e senha.</p>
+
+        <!-- Formulário -->
+        <form id="formLogin">
+
+            <label for="email">E-mail</label>
+
+            <input
+                type="text"
+                id="email"
+                placeholder="Digite seu e-mail">
+
+            <label for="senha">Senha</label>
+
+            <input
+                type="password"
+                id="senha"
+                placeholder="Digite sua senha">
+
+            <div class="lembrar">
+
+                <input
+                    type="checkbox"
+                    id="lembrar">
+
+                <label for="lembrar">
+                    Lembrar-me
+                </label>
+
+            </div>
+
+            <button type="submit">
+                Entrar
+            </button>
+
+        </form>
+
+        <p id="resultado"></p>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
